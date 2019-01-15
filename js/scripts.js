@@ -16,5 +16,10 @@ $(document).ready(function() {
   $(".clickable").click(function() {
     $("#walrus-hidden").slideToggle();
     $("#walrus-showing").slideToggle();
+});
+
+  $(".clickable2").click(function() {
+    $("#rabbit-1").slideToggle();
+    $("#rabbit-2").slideToggle();
   });
 });
